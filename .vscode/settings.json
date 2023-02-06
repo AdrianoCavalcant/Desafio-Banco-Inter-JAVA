@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "src"
+        "src",
+        "src\\br.com.dio.desafio\\br.dio.com.desafio.dominio",
+        "src\\br.com.dio.desafio"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

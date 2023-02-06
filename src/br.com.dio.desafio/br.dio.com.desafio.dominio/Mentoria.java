@@ -3,6 +3,10 @@ public class Mentoria {
     String titulo;
     String descricao;
     LocalDate data;
+
+    public Mentoria(){
+        
+    }
     public String getTitulo() {
         return titulo;
     }
@@ -24,6 +28,8 @@ public class Mentoria {
     @Override
     public String toString() {
         return "Mentoria [titulo=" + titulo + ", descricao=" + descricao + ", data=" + data + "]";
+    }
+    public void setData(int i) {
     }
     
     

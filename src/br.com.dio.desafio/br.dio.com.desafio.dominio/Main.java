@@ -1,4 +1,4 @@
-
+import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         Curso curso1 = new Curso();
@@ -11,8 +11,12 @@ public class Main {
         curso2.setDescricao("Descreição curso js");
         curso2.setCargaHoraria(4);
 
-        System.out.println(curso1);
-        System.out.println(curso2);
+        Mentoria mentoria1 = new Mentoria();
+        mentoria1.setTitulo("mentoria c");
+        mentoria1.setDescricao("Descreição mentoria c");
+        mentoria1.setData(LocalDate.now());
+        
+        System.out.println(mentoria1);
     }
 
 }
